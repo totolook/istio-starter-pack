@@ -10,7 +10,7 @@ Clonare questa repo sulla macchina di sviluppo dove si trova kubernetes oppure i
 
 ```
 
-git clone https://github.com/totolook/istio-started-pack.git
+git clone https://github.com/totolook/istio-starter-pack.git
 cd istio-starter-pack
 sudo chmod +x build.sh
 
