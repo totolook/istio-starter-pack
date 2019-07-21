@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="terminal" baseProfile="full" viewBox="0 0 823 353" width="823" version="1.1">
+    <defs>
+        <termtosvg:template_settings xmlns:termtosvg="https://github.com/nbedos/termtosvg">
+            <termtosvg:screen_geometry columns="97" rows="16"/>
+        </termtosvg:template_settings>
+        <style type="text/css" id="generated-style"><![CDATA[#screen {
+                font-family: 'DejaVu Sans Mono', monospace;
+                font-style: normal;
+                font-size: 14px;
+            }
+
+        text {
+            dominant-baseline: text-before-edge;
+            white-space: pre;
+        }]]></style>
+        <style type="text/css" id="user-style">
+            /* gjm8 color theme (source: https://terminal.sexy/) */
+            .foreground {fill: #f8f8f2}
+            .background {fill: #272822}
+            .color0 {fill: #272822}
+            .color1 {fill: #f92672}
+            .color2 {fill: #a6e22e}
+            .color3 {fill: #f4bf75}
+            .color4 {fill: #66d9ef}
+            .color5 {fill: #ae81ff}
+            .color6 {fill: #a1efe4}
+            .color7 {fill: #f8f8f2}
+            .color8 {fill: #75715e}
+            .color9 {fill: #fd971f}
+            .color10 {fill: #383830}
+            .color11 {fill: #49483e}
+            .color12 {fill: #a59f85}
+            .color13 {fill: #f5f4f1}
+            .color14 {fill: #cc6633}
+            .color15 {fill: #f9f8f5}
+        </style>
+    </defs>
+    <rect id="terminalui" class="background" width="100%" height="100%" ry="4.5826941"/>
+    <circle cx="24" cy="23" r="7" class="color1"/>
+    <circle cx="44" cy="23" r="7" class="color3"/>
+    <circle cx="64" cy="23" r="7" class="color2"/>
+    <svg id="screen" width="776" x="23" y="50" viewBox="0 0 776 272" preserveAspectRatio="xMidYMin meet">
+        <rect class="background" height="100%" width="100%" x="0" y="0"/><defs><g id="g1"><text fill="#af5fff" textLength="56" x="0">antonio</text><text class="foreground" textLength="32" x="56"> in </text><text fill="#87ff00" textLength="8" x="88">~</text><text fill="#d75f00" textLength="16" x="96"> &#955;</text><text class="foreground" textLength="664" x="112"> docker images                                                                     </text></g><g id="g2"><text class="foreground" textLength="672" x="0">REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE</text></g><g id="g3"><text class="foreground" textLength="680" x="0">demo-esb            1                   aee6216e15cd        6 hours ago         368MB</text></g><g id="g4"><text fill="#af5fff" textLength="56" x="0">antonio</text><text class="foreground" textLength="32" x="56"> in </text><text fill="#87ff00" textLength="8" x="88">~</text><text fill="#d75f00" textLength="16" x="96"> &#955;</text><text class="foreground" textLength="664" x="112">                                                                                   </text></g><g id="g5"><text class="background" textLength="8" x="0"> </text></g></defs><g><use y="0" xlink:href="#g1"/><use y="17" xlink:href="#g2"/><use y="34" xlink:href="#g3"/><use y="51" xlink:href="#g4"/><rect class="foreground" height="17" width="8" x="0" y="68"/><use y="68" xlink:href="#g5"/></g></svg>
+</svg>

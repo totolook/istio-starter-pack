@@ -1,0 +1,30 @@
+##################################################################################################
+# ESB service
+##################################################################################################
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: toto-api
+  namespace: totolook
+spec:
+  hosts:
+  - "*"
+  gateways:
+  - toto-gateway
+  http:
+  - match:
+    - uri:
+        prefix: /api
+    route:
+    - destination:
+        host: demo-esb
+        port:
+          number: 8290
+  - match:
+    - uri:
+        exact: /
+    route:
+    - destination:
+        host: api1
+        port:
+          number: 8080

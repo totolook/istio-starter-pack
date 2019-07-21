@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="terminal" baseProfile="full" viewBox="0 0 759 472" width="759" version="1.1">
+    <defs>
+        <termtosvg:template_settings xmlns:termtosvg="https://github.com/nbedos/termtosvg">
+            <termtosvg:screen_geometry columns="89" rows="23"/>
+            <termtosvg:animation type="css"/>
+        </termtosvg:template_settings>
+        <style type="text/css" id="generated-style"><![CDATA[#screen {
+                font-family: 'DejaVu Sans Mono', monospace;
+                font-style: normal;
+                font-size: 14px;
+            }
+
+        text {
+            dominant-baseline: text-before-edge;
+            white-space: pre;
+        }
+    ]]></style>
+        <style type="text/css" id="user-style">
+            /* gjm8 color theme (source: https://terminal.sexy/) */
+            .foreground {fill: #f8f8f2}
+            .background {fill: #272822}
+            .color0 {fill: #272822}
+            .color1 {fill: #f92672}
+            .color2 {fill: #a6e22e}
+            .color3 {fill: #f4bf75}
+            .color4 {fill: #66d9ef}
+            .color5 {fill: #ae81ff}
+            .color6 {fill: #a1efe4}
+            .color7 {fill: #f8f8f2}
+            .color8 {fill: #75715e}
+            .color9 {fill: #fd971f}
+            .color10 {fill: #383830}
+            .color11 {fill: #49483e}
+            .color12 {fill: #a59f85}
+            .color13 {fill: #f5f4f1}
+            .color14 {fill: #cc6633}
+            .color15 {fill: #f9f8f5}
+        </style>
+    </defs>
+    <rect id="terminalui" class="background" width="100%" height="100%" ry="4.5826941"/>
+    <circle cx="24" cy="23" r="7" class="color1"/>
+    <circle cx="44" cy="23" r="7" class="color3"/>
+    <circle cx="64" cy="23" r="7" class="color2"/>
+    <svg id="screen" width="712" height="391" x="23" y="50" viewBox="0 0 712 391" preserveAspectRatio="xMidYMin slice">
+        <rect class="background" height="100%" width="100%" x="0" y="0"/><defs><g id="g1"><text class="foreground" textLength="592" x="0">********************Sto creando il DOCKER del demo-esb********************</text></g><g id="g11"><text class="foreground" textLength="504" x="0">Status: Downloaded newer image for wso2/micro-integrator:latest</text></g><g id="g10"><text class="foreground" textLength="632" x="0">Digest: sha256:17a5f8f263bd23175d7fb7cf2d2bc346f27806081459691940049625b5403eca</text></g><g id="g12"><text class="foreground" textLength="144" x="0"> ---&gt; 5c79fb1fbfd3</text></g><g id="g3"><text class="foreground" textLength="352" x="0">Step 1/2 : FROM wso2/micro-integrator:latest</text></g><g id="g5"><text class="foreground" textLength="712" x="0">e7c96db7181b: Already exists                                                             </text></g><g id="g18"><text class="foreground" textLength="376" x="0">Vuoi fare la push sul registro di K8S [s/N] ? n</text></g><g id="g2"><text class="foreground" textLength="376" x="0">Sending build context to Docker daemon  8.192kB</text></g><g id="g19"><text class="foreground" textLength="112" x="0">Completato :D </text></g><g id="g8"><text class="foreground" textLength="712" x="0">1e759ec26074: Pull complete                                                              </text></g><g id="g14"><text class="foreground" textLength="56" x="0">bonapps</text></g><g id="g16"><text class="foreground" textLength="248" x="0">Successfully built 2ebb224c9dbe</text></g><g id="g20"><text fill="#af5fff" textLength="64" x="0">totolook</text><text class="foreground" textLength="32" x="64"> in </text><text fill="#87ff00" textLength="216" x="96">~/istio-starter-pack/wso2ei</text><text class="foreground" textLength="32" x="312"> on </text><text fill="#5fd7ff" textLength="48" x="344">master</text><text fill="#d75f00" textLength="16" x="392"> &#955;</text><text class="foreground" textLength="8" x="408"> </text><text class="background" textLength="8" x="416"> </text><text class="foreground" textLength="288" x="424">                                    </text></g><g id="g6"><text class="foreground" textLength="712" x="0">7c99a71feab4: Pull complete                                                              </text></g><g id="g13"><text class="foreground" textLength="712" x="0">Step 2/2 : COPY files/carbonapps /home/wso2carbon/wso2mi/repository/deployment/server/car</text></g><g id="g17"><text class="foreground" textLength="240" x="0">Successfully tagged demo-esb:1</text></g><g id="g4"><text class="foreground" textLength="336" x="0">latest: Pulling from wso2/micro-integrator</text></g><g id="g15"><text class="foreground" textLength="144" x="0"> ---&gt; 2ebb224c9dbe</text></g><g id="g9"><text class="foreground" textLength="712" x="0">20d1df8514c1: Pull complete                                                              </text></g><g id="g7"><text class="foreground" textLength="712" x="0">a4303289cec9: Pull complete                                                              </text></g></defs><g><use y="17" xlink:href="#g1"/><use y="51" xlink:href="#g2"/><use y="68" xlink:href="#g3"/><use y="85" xlink:href="#g4"/><use y="102" xlink:href="#g5"/><use y="119" xlink:href="#g6"/><use y="136" xlink:href="#g7"/><use y="153" xlink:href="#g8"/><use y="170" xlink:href="#g9"/><use y="187" xlink:href="#g10"/><use y="204" xlink:href="#g11"/><use y="221" xlink:href="#g12"/><use y="238" xlink:href="#g13"/><use y="255" xlink:href="#g14"/><use y="272" xlink:href="#g15"/><use y="289" xlink:href="#g16"/><use y="306" xlink:href="#g17"/><use y="340" xlink:href="#g18"/><use y="357" xlink:href="#g19"/><rect class="foreground" height="17" width="8" x="416" y="374"/><use y="374" xlink:href="#g20"/></g></svg>
+</svg>

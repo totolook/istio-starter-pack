@@ -1,0 +1,28 @@
+version: '2.2'
+services:
+ api1:
+    image: api1:1
+    container_name: api1
+    ports:
+      - 80:8080
+    networks:
+      - totonet
+    depends_on:
+      - api2
+
+ api2:
+    image: api2:1
+    container_name: api2
+    networks:
+      - totonet
+    depends_on:
+      - api3
+
+ api3:
+    image: api3:1
+    container_name: api3
+    networks:
+      - totonet
+
+networks:
+  totonet:

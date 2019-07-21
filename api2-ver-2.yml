@@ -1,0 +1,37 @@
+
+##################################################################################################
+# API2 version 2
+##################################################################################################
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api2-v2
+  namespace: totolook
+  labels:
+    app: api2
+    version: v2
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: api2
+      version: v2
+  template:
+    metadata:
+      labels:
+        app: api2
+        version: v2
+    spec:
+      containers:
+      - name: api2
+        image: api2:2
+        imagePullPolicy: IfNotPresent
+        env:
+          - name:  API2_TEXT
+            valueFrom:
+              secretKeyRef:
+                name:  apesegreto
+                key:  api2
+        ports:
+        - containerPort: 8080

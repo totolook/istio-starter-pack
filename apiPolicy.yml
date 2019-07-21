@@ -1,0 +1,11 @@
+apiVersion: "authentication.istio.io/v1alpha1"
+kind: "Policy"
+metadata:
+  name: "api-permissive"
+  namespace: totolook
+spec:
+  targets:
+  - name: api1
+  peers:
+  - mtls:
+      mode: STRICT

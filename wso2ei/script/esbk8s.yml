@@ -1,0 +1,47 @@
+##################################################################################################
+# ESB service
+##################################################################################################
+apiVersion: v1
+kind: Service
+metadata:
+  name: demo-esb
+  namespace: totolook
+  labels:
+    app: demo-esb
+    service: demo-esb
+spec:
+  ports:
+  - port: 8290
+    name: http
+  - port: 8253
+    name: https
+  selector:
+    app: demo-esb
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: demo-esb-v1
+  namespace: totolook
+  labels:
+    app: demo-esb
+    version: v1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: demo-esb
+      version: v1
+  template:
+    metadata:
+      labels:
+        app: demo-esb
+        version: v1
+    spec:
+      containers:
+      - name: demo-esb
+        image: demo-esb:1
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 8290
+        - containerPort: 8253
